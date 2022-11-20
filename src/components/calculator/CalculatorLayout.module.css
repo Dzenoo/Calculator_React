@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: rgb(237, 233, 233);
+    padding: 80px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    overflow: hidden;
+}
+
+.btns {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.control button {
+    margin-right: 10px;
+}

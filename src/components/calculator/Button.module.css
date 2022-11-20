@@ -1,0 +1,17 @@
+.btn {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.btn:focus,
+.btn:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+    color: rebeccapurple;
+}
